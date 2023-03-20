@@ -58,7 +58,7 @@ data
 │   │      ├── xxx.jpg
 │   │      └── ...
 │   └── id_mapping.json  # mapping from f30k index to image's file name
-│ 
+│   
 │
 └── vocab  # vocab files provided by SCAN (only used when the text backbone is BiGRU)
 ```

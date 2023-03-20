@@ -43,8 +43,6 @@ data
 │   │      ├── train2014
 │   │      └── val2014
 │   │
-│   ├── cxc_annots # annotations for evaluating COCO-trained models on the CxC benchmark
-│   │
 │   └── id_mapping.json  # mapping from coco-id to image's file name
 │   
 │
@@ -57,6 +55,7 @@ data
 │   ├── flickr30k-images   # raw coco images
 │   │      ├── xxx.jpg
 │   │      └── ...
+|   |
 │   └── id_mapping.json  # mapping from f30k index to image's file name
 │   
 │

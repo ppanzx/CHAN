@@ -29,7 +29,7 @@ We recommended the following dependencies.
 |CHAN | BUTD region |BERT-base|**80.6**|**96.1**|**63.9**|**87.5**|[Here]()|
 
 ## Data
-We organize all data used in the experiments in the same manner as [VSEinf](https://github.com/woodfrog/vse_infty):
+We organize all data used in the experiments in the same manner as [VSE $\infty$](https://github.com/woodfrog/vse_infty):
 
 ```
 data

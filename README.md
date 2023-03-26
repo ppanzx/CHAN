@@ -1,7 +1,7 @@
 # Fine-grained Image-text Matching by Cross-modal Hard Aligning Network
 
 ## Introduction
-This is the source code of CHAN accepted by CVPR2023. It is built on top of the [VSE$\infty$](https://github.com/woodfrog/vse_infty) in PyTorch. 
+This is the source code of CHAN accepted by CVPR2023. It is built on top of the [VSE $\infty$](https://github.com/woodfrog/vse_infty) in PyTorch. 
 
 <img src="docs/img/framework.png" width="95%">
 

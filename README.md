@@ -1,11 +1,7 @@
 # Fine-grained Image-text Matching by Cross-modal Hard Aligning Network
 
 ## Introduction
-<<<<<<< HEAD
 This is the source code of CHAN accepted by CVPR2023. It is built on top of the [VSEinf](https://github.com/woodfrog/vse_infty) in PyTorch. 
-=======
-This is the source code of CHAN accepted by CVPR2023. It is built on top of the [VSE $\infty$](https://github.com/woodfrog/vse_infty) in PyTorch. 
->>>>>>> d7f1dbbe358877b5c96b89738a16314768ecd331
 
 <img src="docs/img/framework.png" width="95%">
 
@@ -20,7 +16,6 @@ We recommended the following dependencies.
 ## Results
 #### Results on COCO 5K Test Split
 
-<<<<<<< HEAD
 | |Visual Backbone|Text Backbone|R1|R5|R1|R5|
 |---|:---:|:---:|---|---|---|---|
 |CHAN | BUTD region |GRU-base|**60.2**|**85.9**|**41.7**|**71.5**|
@@ -38,22 +33,6 @@ We release our checkpoints at [Google Drive](https://drive.google.com/drive/fold
 
 ## Data
 We organize all data used in the experiments in the same manner as [VSEinf](https://github.com/woodfrog/vse_infty):
-=======
-| |Visual Backbone|Text Backbone|R1|R5|R1|R5|Link|
-|---|:---:|:---:|---|---|---|---|---|
-|CHAN | BUTD region |GRU-base|**60.2**|**85.9**|**41.7**|**71.5**|[Here]()|
-|CHAN | BUTD region |BERT-base|**59.8**|**87.2**|**44.9**|**74.5**|[Here]()|
-
-#### Results on Flickr30K Test Split
-
-| |Visual Backbone|Text Backbone|R1|R5|R1|R5|Link|
-|---|:---:|:---:|---|---|---|---|---|
-|CHAN | BUTD region |GRU-base|**79.7**|**94.5**|**60.2**|**85.3**|[Here]()|
-|CHAN | BUTD region |BERT-base|**80.6**|**96.1**|**63.9**|**87.5**|[Here]()|
-
-## Data
-We organize all data used in the experiments in the same manner as [VSE $\infty$](https://github.com/woodfrog/vse_infty):
->>>>>>> d7f1dbbe358877b5c96b89738a16314768ecd331
 
 ```
 data
@@ -79,14 +58,8 @@ data
 │   ├── flickr30k-images   # raw coco images
 │   │      ├── xxx.jpg
 │   │      └── ...
-<<<<<<< HEAD
 │   └── id_mapping.json  # mapping from f30k index to image's file name
 │
-=======
-|   |
-│   └── id_mapping.json  # mapping from f30k index to image's file name
-│   
->>>>>>> d7f1dbbe358877b5c96b89738a16314768ecd331
 │
 └── vocab  # vocab files provided by SCAN (only used when the text backbone is BiGRU)
 ```
